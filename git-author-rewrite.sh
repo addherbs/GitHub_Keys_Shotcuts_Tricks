@@ -1,6 +1,3 @@
-# git clone --bare https://github.com/user/repo.git
-# cd repo.git
-
 
 
 
@@ -24,7 +21,3 @@ fi
 ' --tag-name-filter cat -- --branches --tags
 
 
-# git push --force --tags origin 'refs/heads/*'
-
-# cd ..
-# rm -rf repo.git
