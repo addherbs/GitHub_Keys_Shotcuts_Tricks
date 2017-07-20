@@ -13,4 +13,5 @@
 		
 	# Commit files that are there in the staged area to the master/origin
 		git commit -m "Message associated with the respective git commit"
-		
+	# Push the commits to the master/origin or main GitHub
+		git push
