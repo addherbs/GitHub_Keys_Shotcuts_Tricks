@@ -11,4 +11,6 @@
 		OR
 		git add .		#This will add all the changed files to the staged area for commit
 		
-	
+	# Commit files that are there in the staged area to the master/origin
+		git commit -m "Message associated with the respective git commit"
+		
