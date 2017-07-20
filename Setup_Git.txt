@@ -1,0 +1,14 @@
+# How to initialize:
+	# A:Go to you local file browser and copy the location of the repository you want to work wit
+	# B:Open PowerShell/CMD/Console associated with git
+	# C:Command- 
+		cd 'location_to_Repo'
+	# Entered our repository in console
+		git ini 	# Initialize repository
+	# Make changes to the files or folders
+		git add 'respective file name that you changed and want to add it to staging area for commit'
+			Example: git changes.py
+		OR
+		git add .		#This will add all the changed files to the staged area for commit
+		
+	
