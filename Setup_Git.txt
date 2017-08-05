@@ -1,10 +1,22 @@
-# How to initialize:
+## How to configure you GitHub:
+	git config --global user.name "Aditya Pandey"
+	
+	git config --global user.email "addherbs@gmail.com"
+	
+	# This username will be saved in your system credentials in Windows
+	# You can change/delete/modify these under the tab of Git in system credentials
+
+## How to initialize:
 	# A:Go to you local file browser and copy the location of the repository you want to work wit
+	
 	# B:Open PowerShell/CMD/Console associated with git
+	
 	# C:Command- 
 		cd 'location_to_Repo'
+	
 	# Entered our repository in console
 		git ini 	# Initialize repository
+	
 	# Make changes to the files or folders
 		git add 'respective file name that you changed and want to add it to staging area for commit'
 			Example: git changes.py
@@ -13,5 +25,7 @@
 		
 	# Commit files that are there in the staged area to the master/origin
 		git commit -m "Message associated with the respective git commit"
+	
 	# Push the commits to the master/origin or main GitHub
 		git push
+		
