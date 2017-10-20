@@ -15,7 +15,7 @@
 		cd 'location_to_Repo'
 	
 	# Entered our repository in console
-		git ini 	# Initialize repository
+		git init 	# Initialize repository
 	
 	# Make changes to the files or folders
 		git add 'respective file name that you changed and want to add it to staging area for commit'
